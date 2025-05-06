@@ -2,10 +2,7 @@
     width: fit-content;
     font-size: 12px;
     font-weight: bold;
-    padding-top : 4px;
-    padding-bottom: 4px;
-    padding-left: 6px;
-    padding-right: 6px;
+    padding: 4px 6px;
     border-radius: 8px;
     border: solid;
     border-width: 1px;

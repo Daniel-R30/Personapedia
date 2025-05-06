@@ -1,0 +1,14 @@
+* {
+	box-sizing: border-box !important;
+}
+
+.row-group {
+	display: flex;
+	gap: 8px;
+}
+
+.column-group {
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+}
