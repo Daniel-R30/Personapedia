@@ -1,0 +1,54 @@
+.tag{
+    width: fit-content;
+    font-size: 12px;
+    font-weight: bold;
+    padding-top : 4px;
+    padding-bottom: 4px;
+    padding-left: 6px;
+    padding-right: 6px;
+    border-radius: 8px;
+    border: solid;
+    border-width: 1px;
+}
+
+.jester{
+    background-color: #95EAFD;
+    border-color: #0054673D;
+    color: #005467;
+}
+
+.hunger{
+    background-color: #B7B7B7;
+    border-color: #4646463D;
+    color: #464646;
+}
+
+.chariot{
+    background-color: #FFFB8B;
+    border-color: #7874003D;
+    color: #787400;
+}
+
+.fortune{
+    background-color: #BBF99B;
+    border-color: #2F76293d;
+    color: #2F7629;
+}
+
+.priestess{
+    background-color: #FFBEF2;
+    border-color: #A600963d;
+    color: #A60096;
+}
+
+.lovers{
+    background-color: #FFC9C9;
+    border-color: #BC08083d;
+    color: #BC0808;
+}
+
+.date{
+    background-color: #AFAAFE;
+    border-color: #362DB43d;
+    color: #362DB4;
+}
