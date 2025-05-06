@@ -14,23 +14,23 @@
     justify-content: center;
 }
 
-.primary{
+.button-primary{
     background-color: #FFF301;
     color: #373737;
 }
 
-.secondary{
+.button-secondary{
     background-color: #4A6B8A;
     color: #F2F5F8; 
 }
 
-.outline{
+.button-outline{
     background-color: transparent;
     border: 1px solid #4A6B8A;
     color: #4A6B8A;
 }
 
-.header{
+.button-header{
     background-color: #F2F5F8;
     color: #4A6B8A;
 }
