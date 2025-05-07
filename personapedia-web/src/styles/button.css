@@ -32,5 +32,5 @@
 
 .button-header{
     background-color: #F2F5F8;
-    color: #4A6B8A;
+    color: var(--title-text-color);
 }

@@ -1,4 +1,5 @@
 * {
+    margin: 0;
 	font-family: 'Albert Sans', sans-serif;
 	font-optical-sizing: auto;
 	font-style: normal;
@@ -7,28 +8,49 @@
 
 :root{
     --primary-color: #FDB137;
+    --main-bg-color: #FEFCF3;
+
     --title-text-color: #694101;
-}
-
-
-html,body{
-    margin: 0;
+    --subtitle-text-color: #9E6202;
+    --main-text-color: #5A6470;
 }
 
 .row-group {
 	display: flex;
+    flex-wrap: wrap;
 	gap: 8px;
 }
 
 .column-group {
 	display: flex;
+    flex-wrap: wrap;
 	flex-direction: column;
 	gap: 16px;
 }
+html{
+    background-color: var(--main-bg-color);
+}
 
 h1 {
-	margin: 0;
+	font-size: 40px;
+	font-weight: bold;
+    color: var(--title-text-color);
+}
+
+h2{
 	font-size: 24px;
 	font-weight: bold;
     color: var(--title-text-color);
+}
+
+h3{
+    font-size: 18px;
+	font-weight: bold;
+    color: var(--subtitle-text-color);
+}
+
+p{
+    font-size: 16px;
+	font-weight: bold;
+    color: var(--main-text-color);
 }
