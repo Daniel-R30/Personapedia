@@ -1,6 +1,5 @@
-import React from 'react'
-import ViewLayout from './ViewLayout'
 import Head from '../components/Head'
+import ViewLayout from './ViewLayout'
 
 const SocialLinksList = () => {
     return (
