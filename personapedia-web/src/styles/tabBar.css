@@ -1,7 +1,7 @@
 .tabBar{
     width: 100%;
     display: flex;
-    box-shadow: 0px -2px 0px 0px var(--border-regular) inset;
+    box-shadow: 0px -2px 0px 0px var(--border-regular-color) inset;
 }
 
 .tab{

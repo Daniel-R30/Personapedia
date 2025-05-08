@@ -12,25 +12,19 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    color: var(--text-title-color);
 }
 
 .button-primary{
     background-color: var(--primary-color);
-    color: var(--text-title-color);;
-}
-
-.button-secondary{
-    background-color: #4A6B8A;
-    color: #F2F5F8; 
+    
 }
 
 .button-outline{
     background-color: transparent;
-    border: 1px solid #4A6B8A;
-    color: #4A6B8A;
+    border: 1px solid var(--border-subtle-color);
 }
 
 .button-header{
     background-color: #F2F5F8;
-    color: var(--text-title-color);
 }

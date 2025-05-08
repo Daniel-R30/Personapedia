@@ -1,4 +1,4 @@
-import './styles/style.css'
+import './styles/styles.css'
 import 'bootstrap-icons/font/bootstrap-icons.css'
 import Button from './components/Button'
 import Header from './components/Header'
@@ -26,7 +26,6 @@ function App () {
 
                     <div className='row-group gap-1'>
                         <Button text='primary' />
-                        <Button type='secondary' text='secondary' />
                         <Button type='outline' text='outline' />
                         <Button type='header' text='Login/Sign up' />
                     </div>

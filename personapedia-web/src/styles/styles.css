@@ -21,8 +21,8 @@
     --text-secondary-color: #5A6470;
     
     /* Border Tokens */
-    --border-subtle: #9E6202B8;
-    --border-regular: var(--primary-color); 
+    --border-subtle-color: #9E6202B8;
+    --border-regular-color: #B0B8C1; 
 }
 
 .row-group {
@@ -45,11 +45,11 @@
 }
 
 .justify-center{
-    justify-items: center;
+    justify-content: center;
 }
 
 .justify-between{
-    justify-items: space-between;
+    justify-content: space-between;
 }
 
 .gap-1{
