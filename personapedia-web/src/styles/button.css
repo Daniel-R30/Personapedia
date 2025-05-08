@@ -15,8 +15,8 @@
 }
 
 .button-primary{
-    background-color: #FFF301;
-    color: #373737;
+    background-color: var(--primary-color);
+    color: var(--text-title-color);;
 }
 
 .button-secondary{
@@ -32,5 +32,5 @@
 
 .button-header{
     background-color: #F2F5F8;
-    color: var(--title-text-color);
+    color: var(--text-title-color);
 }

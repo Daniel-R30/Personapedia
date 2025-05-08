@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <div className='header'>
         <h2>Personapedia</h2>
-        <div className='row-group'>
+        <div className='row-group gap-1'>
             <Button type='header' text='Sign up' />
             <Button type='header' text='Login' />
         </div>

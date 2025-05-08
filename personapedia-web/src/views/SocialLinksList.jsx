@@ -1,14 +1,13 @@
 import React from 'react'
 import ViewLayout from './ViewLayout'
+import Head from '../components/Head'
 
 const SocialLinksList = () => {
-  return (
-    <ViewLayout>
-        <h1>Persona 4 Golden</h1>
-        <h3>Descubre lo que la niebla intenta ocultar.</h3>
-
-    </ViewLayout>
-  )
+    return (
+        <ViewLayout>
+            <Head />
+        </ViewLayout>
+    )
 }
 
 export default SocialLinksList

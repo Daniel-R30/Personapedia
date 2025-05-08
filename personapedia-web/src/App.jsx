@@ -1,9 +1,9 @@
+import './styles/style.css'
+import 'bootstrap-icons/font/bootstrap-icons.css'
 import Button from './components/Button'
 import Header from './components/Header'
-import Tag from './components/Tag'
-
-import './styles/style.css'
 import SocialLinksList from './views/SocialLinksList'
+import Tag from './components/Tag'
 import ViewLayout from './views/ViewLayout'
 
 function App () {
@@ -13,8 +13,8 @@ function App () {
             <Header />
             <SocialLinksList />
             <ViewLayout>
-                <div className='column-group'>
-                    <div className='row-group'>
+                <div className='column-group gap-2'>
+                    <div className='row-group gap-1'>
                         <Tag type='jester' />
                         <Tag type='hunger' />
                         <Tag type='chariot' />
@@ -24,7 +24,7 @@ function App () {
                         <Tag type='date' date='april-18' />
                     </div>
 
-                    <div className='row-group'>
+                    <div className='row-group gap-1'>
                         <Button text='primary' />
                         <Button type='secondary' text='secondary' />
                         <Button type='outline' text='outline' />

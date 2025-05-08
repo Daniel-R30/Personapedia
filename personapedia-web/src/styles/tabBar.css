@@ -1,0 +1,20 @@
+.tabBar{
+    width: 100%;
+    display: flex;
+    box-shadow: 0px -2px 0px 0px var(--border-regular) inset;
+}
+
+.tab{
+    width: fit-content;
+    padding: 16px;
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--text-subtitle-color);
+    cursor: pointer;
+}
+
+.tab-active{
+    font-weight: bold;
+    color: var(--text-title-color);
+    border-bottom: 2px solid var(--text-title-color);
+}
