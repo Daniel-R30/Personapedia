@@ -3,7 +3,7 @@ import Tab from './Tab'
 
 const TabBar = () => {
     return (
-        <div className='tabBar'>
+        <div className='tab-bar'>
             <Tab text='Social Links' active />
             <Tab text='Fusion Calculator' />
         </div>

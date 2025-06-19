@@ -27,13 +27,15 @@
 
 .row-group {
 	display: flex;
-    flex-wrap: wrap;
 }
 
 .column-group {
 	display: flex;
-    flex-wrap: wrap;
 	flex-direction: column;
+}
+
+.wrap{
+    flex-wrap: wrap;
 }
 
 .align-center{
@@ -90,8 +92,14 @@ h3{
     color: var(--text-subtitle-color);
 }
 
+h4{
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--text-primary-color);
+}
+
 p{
     font-size: 16px;
-	font-weight: bold;
+	font-weight: normal;
     color: var(--text-primary-color);
 }

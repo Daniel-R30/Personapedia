@@ -1,5 +1,5 @@
 .button{
-    width: fit-content;
+    width: 290px;
     height: 40px;
     min-width: 120px;
     max-width: 290px;
@@ -15,16 +15,17 @@
     color: var(--text-title-color);
 }
 
-.button-primary{
+.button--primary{
     background-color: var(--primary-color);
     
 }
 
-.button-outline{
+.button--outline{
     background-color: transparent;
     border: 1px solid var(--border-subtle-color);
 }
 
-.button-header{
+.button--header{
+    width: 120px;
     background-color: #F2F5F8;
 }

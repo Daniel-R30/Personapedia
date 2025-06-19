@@ -10,43 +10,43 @@
     white-space: nowrap;
 }
 
-.tag-jester{
+.tag--jester{
     background-color: #95EAFD;
     border-color: #0054673D;
     color: #005467;
 }
 
-.tag-hunger{
+.tag--hunger{
     background-color: #B7B7B7;
     border-color: #4646463D;
     color: #464646;
 }
 
-.tag-chariot{
+.tag--chariot{
     background-color: #FFFB8B;
     border-color: #7874003D;
     color: #787400;
 }
 
-.tag-fortune{
+.tag--fortune{
     background-color: #BBF99B;
     border-color: #2F76293d;
     color: #2F7629;
 }
 
-.tag-priestess{
+.tag--priestess{
     background-color: #FFBEF2;
     border-color: #A600963d;
     color: #A60096;
 }
 
-.tag-lovers{
+.tag--lovers{
     background-color: #FFC9C9;
     border-color: #BC08083d;
     color: #BC0808;
 }
 
-.tag-date{
+.tag--date{
     background-color: #AFAAFE;
     border-color: #362DB43d;
     color: #362DB4;
